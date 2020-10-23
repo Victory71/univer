@@ -1,25 +1,75 @@
+/* Все страницы */
+/* Цвет фона */
 body {
     background-color: AliceBlue;
 }
 
+/* Меню */
 .menu {
     list-style-type: none;
-}
-
-.menu a {
     font-family: "Times New Roman", Georgia, Serif;
     font-weight: 500;
     font-style: normal;
     font-size: 16px;
-    color: dimgrey;
 }
 
+/* Изменение внешнего вида ссылок */
+.menu a {
+    color: dimgrey;
+    text-decoration: none;
+}
+
+/* Ссылки при наведении */
+.menu a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/* Блок для меню */
+.container {
+    width: 100%;
+    padding: 0 5px;
+    margin: 0 auto;
+}
+
+/* Свойства для логотипа */
+.imglogo {
+    width: 4%;
+    height: 4%;
+    float: left;
+}
+
+/* Свойства для списка */
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 30px 80px 10px 80px;
+}
+/*  */
+
+
+p:first-letter {
+    font-family: "Arial", serif;
+    font-size: 25px;
+    color: red;
+   }
+
+/* Страницы товаров */
+/* Заголовки в товарах */
 .page {
     color: mediumvioletred;
     font-size: 18px;
     font-weight: 400;
 }
 
+/* Текст краткого описания товара */
 .brief {
     color: #191970;
     font-size: 14px;
@@ -27,6 +77,7 @@ body {
     line-height: 16px;
 }
 
+/* Текст подробного описания товара */
 .detailed {
     color: #484343;
     font-size: 16px;
@@ -35,12 +86,14 @@ body {
     text-align: left;
 }
 
+/* Подзаголовок характеристик товара */
 .h3header {
     color: darkorange;
     font-size: 18px;
     font-weight: 700;
 }
 
+/* Списки характеристики товара с изображением */
 .specif1 {
     color: darkorchid;
     font-size: 16px;
@@ -48,6 +101,7 @@ body {
     list-style-image: url(image/check1.png)
 }
 
+/* Списки характеристики товара с изображением */
 .specif2 {
     color: darkorchid;
     font-size: 16px;
@@ -55,6 +109,7 @@ body {
     list-style-image: url(image/check2.png)
 }
 
+/* Списки характеристики товара с изображением */
 .specif3 {
     color: darkorchid;
     font-size: 16px;
@@ -62,6 +117,7 @@ body {
     list-style-image: url(image/check3.png)
 }
 
+/* Списки характеристики товара с изображением */
 .specif4 {
     color: darkorchid;
     font-size: 16px;
@@ -69,21 +125,129 @@ body {
     list-style-image: url(image/check4.png)
 }
 
+/* Рамка для фотографии */
+.image {
+    border-style: inset;
+    border-color: brown;
+    border-width: 3px;
+    display: block;
+    margin: auto;
+}
+
+/* При наведении рамка убирается */
+.image:hover {
+    border-color: transparent;
+}
+
+/* Комплектация и цены */
+.complect {
+    border-collapse: collapse;
+    border: 2px solid brown;
+    text-align: center;
+    margin: auto;
+    width: 615px;
+}
+
+.complect td, th {
+    border: 2px solid brown;
+}
+
+.tab1 {
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.tab2 {
+    width: 70px;
+}
+
+/* Отзывы */
+.reviews {
+    border-collapse: collapse;
+    border: 2px solid brown;
+    text-align: center;
+    margin: auto;
+}
+
+.reviews td {
+    border: 2px solid brown;
+}
+
+.rev1 {
+    width: 200px;
+    height: 30px;
+    font-weight: 600;
+}
+
+.rev2 {
+    width: 200px;
+    height: 50px;
+}
+
+.revimg5 {
+    width: 90px;
+    height: 25px;
+}
+
+.revimg4 {
+    width: 75px;
+    height: 25px;
+}
+
+.rev3 {
+    width: 200px;
+    height: 150px;
+}
+
+
+
+/*  */
+
+
+/* Страница контактов */
+/* Поля ввода */
 .inptext {
     width: 400px;
     height: auto;
     color: dimgray;
     font-size: 14px;
     font-weight: 500;
+    text-transform: capitalize; /* Первая большая буква */
 }
 
+/* Поле для ввода сообщения */
 .textar {
     width: 400px;
     height: 60px;
+    text-transform: capitalize;/* Первая большая буква */
 }
 
-.image {
-    border-style: inset;
-    border-color: brown;
-    border-width: 3px;
+/* Поле для ввода e-mail */
+.email {
+    color: dimgray;
+    font-size: 14px;
+    width: 400px;
+    height: auto;
+}
+
+/* Поле для ввода e-mail, которое меняет цвет фоно и текста при вводе данных */
+.email:focus {
+    color: white;
+    background-color: blue;
+    text-transform: capitalize; /* Первая большая буква */
+}
+/*  */
+
+/* Футер */
+/* Свойства для блока футера */
+.container1 {
+    width: 100%;
+    padding: 0 5px;
+    margin: 0 auto;
+}
+
+/* Свойства для теста в футере */
+.footp {
+    text-align: center;
 }
