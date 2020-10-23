@@ -1,0 +1,89 @@
+body {
+    background-color: AliceBlue;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.menu a {
+    font-family: "Times New Roman", Georgia, Serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    color: dimgrey;
+}
+
+.page {
+    color: mediumvioletred;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.brief {
+    color: #191970;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.detailed {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.h3header {
+    color: darkorange;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.specif1 {
+    color: darkorchid;
+    font-size: 16px;
+    font-weight: 400;
+    list-style-image: url(image/check1.png)
+}
+
+.specif2 {
+    color: darkorchid;
+    font-size: 16px;
+    font-weight: 400;
+    list-style-image: url(image/check2.png)
+}
+
+.specif3 {
+    color: darkorchid;
+    font-size: 16px;
+    font-weight: 400;
+    list-style-image: url(image/check3.png)
+}
+
+.specif4 {
+    color: darkorchid;
+    font-size: 16px;
+    font-weight: 400;
+    list-style-image: url(image/check4.png)
+}
+
+.inptext {
+    width: 400px;
+    height: auto;
+    color: dimgray;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.textar {
+    width: 400px;
+    height: 60px;
+}
+
+.image {
+    border-style: inset;
+    border-color: brown;
+    border-width: 3px;
+}
