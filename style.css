@@ -1,0 +1,321 @@
+body {
+    background-color: AliceBlue;
+}
+
+html {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+#header {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: black;
+    mix-blend-mode: normal;
+}
+
+#header img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:8%;
+    height:8%;
+    float:center;
+}
+
+img {
+    vertical-align: middle;
+    border: 0;
+}
+
+div {
+    display: block;
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display:block;
+}
+
+.navbar-nav {
+    margin: 7.5px -15px;
+}
+
+.nav {
+    padding-left: 0;
+    list-style: none;
+}
+
+nav ul {
+    padding: 0;
+    display: block;
+    width:100%;
+    background: black;
+}
+
+ul {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.nav>li {
+    position:relative;
+    display: block;
+}
+
+nav li {
+    float:left;
+}
+
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+nav a {
+    color:white;
+    text-align: center;
+}
+
+nav a:hover {
+    color:red;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.dra {
+    color:black;
+    text-align: center;
+}
+
+h1 {
+    color: red;
+}
+
+.footp {
+    text-align: center;
+}
+
+.cat {
+    color:black;
+}
+
+.cat:hover {
+    color:red;
+}
+
+.buttd {
+    float:right;
+}
+
+/*Для товара*/
+/* Текст краткого описания товара */
+.brief {
+    color: #191970;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+/* Текст подробного описания товара */
+.detailed {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+/* Подзаголовок характеристик товара */
+.h3header {
+    color: darkorange;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* Списки характеристики товара с изображением */
+.specif1 {
+    color: darkorchid;
+    font-size: 16px;
+    font-weight: 400;
+    list-style-image: url(image/check1.png)
+}
+
+/* Списки характеристики товара с изображением */
+.specif2 {
+    color: darkorchid;
+    font-size: 16px;
+    font-weight: 400;
+    list-style-image: url(image/check2.png)
+}
+
+/* Списки характеристики товара с изображением */
+.specif3 {
+    color: darkorchid;
+    font-size: 16px;
+    font-weight: 400;
+    list-style-image: url(image/check3.png)
+}
+
+/* Списки характеристики товара с изображением */
+.specif4 {
+    color: darkorchid;
+    font-size: 16px;
+    font-weight: 400;
+    list-style-image: url(image/check4.png)
+}
+
+/* Рамка для фотографии */
+.image {
+    border-style: inset;
+    border-color: brown;
+    border-width: 3px;
+    display: block;
+    margin: auto;
+}
+
+/* При наведении рамка убирается */
+.image:hover {
+    border-color: transparent;
+}
+
+/* Комплектация и цены */
+.complect {
+    border-collapse: collapse;
+    border: 2px solid brown;
+    text-align: center;
+    margin: auto;
+    width: 615px;
+}
+
+.complect td, th {
+    border: 2px solid brown;
+}
+
+.tab1 {
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.tab2 {
+    width: 70px;
+}
+
+/* Отзывы */
+.reviews {
+    border-collapse: collapse;
+    border: 2px solid brown;
+    text-align: center;
+    margin: auto;
+}
+
+.reviews td {
+    border: 2px solid brown;
+}
+
+.rev1 {
+    width: 200px;
+    height: 30px;
+    font-weight: 600;
+}
+
+.rev2 {
+    width: 200px;
+    height: 50px;
+}
+
+.revimg5 {
+    width: 90px;
+    height: 25px;
+}
+
+.revimg4 {
+    width: 75px;
+    height: 25px;
+}
+
+.rev3 {
+    width: 200px;
+    height: 150px;
+}
+
+
+
+.carousel {
+  width: 60% !important;
+}
+.carousel-inner img {
+  height: 60% !important;
+  margin: 0 auto;
+}
+.carousel-indicators li {
+  border-color: #000;
+}
+.carousel-indicators .active {
+  background-color: #000;
+}
+
+
+/* Страница контактов */
+/* Поля ввода */
+.inptext {
+    width: 400px;
+    height: auto;
+    color: dimgray;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize; /* Первая большая буква */
+}
+
+/* Поле для ввода сообщения */
+.textar {
+    width: 400px;
+    height: 60px;
+    text-transform: capitalize;/* Первая большая буква */
+}
+
+/* Поле для ввода e-mail */
+.email {
+    color: dimgray;
+    font-size: 14px;
+    width: 400px;
+    height: auto;
+}
+
+/* Поле для ввода e-mail, которое меняет цвет фоно и текста при вводе данных */
+.email:focus {
+    color: white;
+    background-color: blue;
+    text-transform: capitalize; /* Первая большая буква */
+}
+
+#carouselExampleIndicators {
+    margin-right: 300px;
+    margin-left: 300px;
+}
